@@ -169,7 +169,7 @@ public class GitWebFrame extends Component
 
         if(directory == null)
         {
-            url = "https://raw.githubusercontent.com/MrCrayfish/GitWeb-Sites/master/" + extension + "/" + domain + "/index";
+            url = "https://raw.githubusercontent.com/oxmc/GitWeb-SitesNew/master/" + extension + "/" + domain + "/index";
         }
         else
         {
@@ -177,7 +177,7 @@ public class GitWebFrame extends Component
             {
                 directory = directory.substring(0, directory.length() - 1);
             }
-            url = "https://raw.githubusercontent.com/MrCrayfish/GitWeb-Sites/master/" + extension + "/" + domain + directory + "/index";
+            url = "https://raw.githubusercontent.com/oxmc/GitWeb-SitesNew/master/" + extension + "/" + domain + directory + "/index";
         }
 
         if(loadingCallback != null)
